@@ -69,13 +69,13 @@
 
 \begin{document}
 
-\input{Bia} % Bìa đồ án.
+\input{coverPage} % Bìa đồ án.
 
-\input{DanhGia} % Đánh giá quyển đồ án tốt nghiệp cho giảng viên hướng dẫn và cán bộ phản biện.
+\input{evaluationCriteria} % Đánh giá quyển đồ án tốt nghiệp cho giảng viên hướng dẫn và cán bộ phản biện.
 
-\input{LoiNoiDau} % Lời nói đầu.
+\input{introduction} % Lời nói đầu.
 
-\input{LoiCamDoan} % Lời cam đoan.
+\input{commitment} % Lời cam đoan.
 
  % Tạo mục lục tự động
 \addtocontents{toc}{\protect\thispagestyle{empty}}
@@ -83,7 +83,7 @@
 \thispagestyle{empty}
 \cleardoublepage
 
-\input{Abbreviations} % Danh mục ký hiệu và chữ viết tắt
+\input{abbreviations} % Danh mục ký hiệu và chữ viết tắt
 
 %Tạo danh mục hình vẽ.
 {\let\oldnumberline\numberline
@@ -99,7 +99,7 @@
 \phantomsection\addcontentsline{toc}{section}{\numberline {} DANH MỤC BẢNG BIỂU}
 \newpage
 
-\input{Abstract} % Tóm tắt đồ án 
+\input{abstract} % Tóm tắt đồ án 
 
 \pagenumbering{arabic} % Đánh số thứ tự 1,2,3...
 \section*{CHƯƠNG 1.  CHƯƠNG MỞ ĐẦU}
@@ -251,6 +251,6 @@ Kết luận chung cho các chương trong đồ án. Mục này cần nhấn m�
 \bibliographystyle{IEEEtran}
 \bibliography{TaiLieuThamKhao}
 \newpage
-\input{PhuLuc} % Phụ lục nếu có
+\input{appendix} % Phụ lục nếu có
 \end{document}
 
