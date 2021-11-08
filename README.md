@@ -1,4 +1,4 @@
-# thesis-Template
+# thesis - Template - LaTeX
 
 Template này hướng dẫn các bạn cách trình bày báo cáo bài tập lớn hay báo cáo Đồ án Tốt nghiệp đúng chuẩn của Viện Điện tử - Viễn thông, trường Đại học Bách khoa Hà Nội bằng cách sử dụng LaTeX thay vì sử dụng Microsoft Word như trước đây.
 
